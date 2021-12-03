@@ -114,7 +114,7 @@ h3{
 
 .carousel-item {
     text-align: center;
-    transition: transform 4s ease-in-out,-webkit-transform 4xxs ease-in-out;
+    transition: transform 4s ease-in-out,-webkit-transform 4s ease-in-out;
 }
 
 .carousel-control-prev-icon {
