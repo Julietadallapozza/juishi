@@ -1,0 +1,114 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>anna ehrenstein</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+<html>
+ 
+<head>
+    <style type="text/css">
+        /*Setting Basic Dimensions to give
+        gallery view */
+        .container{
+            margin: 0 auto;
+            width: 90%;
+            display: flex;
+            margin-right: 15%;
+        }
+        .main_view{
+            width: 80%;
+            height: 25rem;
+        }
+        .main_view img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .side_view{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .side_view img{
+            width: 9rem;
+            height: 7rem;
+            object-fit: cover;
+            cursor: pointer;
+            margin:0.5rem;
+        }
+    </style>
+</head>
+ 
+<body>
+    <div class="row">
+        <div class="left_sidebar">
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html" class="nav__link costume" style="font-size:65px;">  COSTUME</a></li>
+                    <li class="nav__item"><a href="ybdg.html" class="nav__link vistualarts" style="color: blue; font-size: 20px;">young boy dancing group</a></li>
+                    <li class="nav__item"><a href="ybdg.html" class="nav__link vistualarts" style="color: blue; font-size: 30px;">mochvara</a></li>
+                    <li class="nav__item"><a href="index.html" class="nav__link costume"  >fotopub</a></li>
+                    <li class="nav__item"><a href="anna.html" class="nav__link styling">anna ehrenstein </a></li>
+                    <li class="nav__item"><a href="assembly.html" class="nav__link performance" >assembly</a></li>
+                    <li class="nav__item"><a href="cru.html" class="nav__link vistualarts"  >cru</a></li>
+                    <li class="nav__item"><a href="giek.html" class="nav__link vistualarts">giek</a></li>
+                    <li class="nav__item"><a href="slim.html" class="nav__link vistualarts">slim soledad</a></li>
+                    <li class="nav__item"><a href="thehunger.html" class="nav__link vistualarts">the hunger</a></li>
+                    <li class="nav__item"><a href="wetdreams.html" class="nav__link vistualarts">wet dreams</a></li>
+
+
+
+
+
+                </ul>
+            </nav>    
+        </div>
+    
+    <!-- Container for our gallery -->
+    <div class="container">
+         
+        <!-- Main view of our gallery -->
+        <div class="main_view">
+            <img src="web/costume/ybdg/costume /mochvara/1.JPG" id="main" alt="IMAGE">
+        </div>
+ 
+        <!-- All images with side view -->
+        <div class="side_view">
+            <img src="web/costume/ybdg/costume /mochvara/1.JPG" onclick="change(this.src)">
+            <img src="web/costume/ybdg/costume /mochvara/2.JPG" onclick="change(this.src)">
+            <img src="web/costume/ybdg/costume /mochvara/3.JPG" onclick="change(this.src)">
+            <!-- <img src="four.jpg" onclick="change(this.src)"> -->
+        </div>
+    </div>
+ 
+    <script type="text/javascript">
+        const change = src => {
+            document.getElementById('main').src = src
+        }
+    </script>
+
+
+ 
+         <div class="right_sidebar container2">    
+            <nav class="nav-right">
+                <ul class="nav__list">
+                  <li class="nav__item"><a href="info.html" class="nav__link">info</a></li>
+                  <li class="nav__item"><a href="https://www.instagram.com/ju_ishiii/" class="nav__link">blog</a></li>
+                  <li class="nav__item"><a href="https://www.juishii.com/" class="nav__link">shop</a></li>
+
+              </ul>
+            </nav>   
+        </div>
+  </div>
+
+</body>
+
+</html> 
