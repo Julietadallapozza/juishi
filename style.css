@@ -160,6 +160,16 @@ img {
     margin-right: 15%;
 }
 
+.brand-container {
+    width: 80%;
+    height: 1vh;
+    margin-top: -18%;
+    display: flex;
+    justify-content: right;
+    color: blue;
+
+}
+
 
   
 
